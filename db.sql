@@ -9,5 +9,8 @@ CREATE TABLE IF NOT EXISTS users (
   password VARCHAR(50) NOT NULL
 ); 
 
-
+CREATE TABLE IF NOT EXISTS subsciption_type(
+  id serial PRIMARY KEY, 
+  name VARCHAR(100)
+)
   
