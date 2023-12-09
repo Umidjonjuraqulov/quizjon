@@ -11,6 +11,7 @@ CREATE TABLE IF NOT EXISTS users (
 
 CREATE TABLE IF NOT EXISTS subsciption_type(
   id serial PRIMARY KEY, 
-  name VARCHAR(100)
+  name VARCHAR(100), 
+  payment NUMERIC(12, 2)
 )
   
