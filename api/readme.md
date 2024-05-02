@@ -13,6 +13,11 @@ Run:
 uvicorn main:app --reload 
 ```
 
+Yoki Run: 
+```
+python -m uvicorn main:app --reload 
+```
+
 Bu ushbu addressda ochadi: 
 ```
 127.0.0.1:8000 
